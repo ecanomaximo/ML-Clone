@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+* a {
+  text-decoration: none;
+  color: #333333;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
 }
@@ -93,7 +98,14 @@ body, input, button {
 .cep button {
   border: 0;
   background-color: #fff158;
-  text-align: start;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.cep button:hover {
+  border: 0.5px solid #eadd61;
+  border-radius: 4px;
 }
 
 .cep img {
@@ -143,3 +155,4 @@ body, input, button {
 .login li {
   margin-right: 20px;
 }
+
