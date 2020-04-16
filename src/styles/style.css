@@ -48,9 +48,9 @@ body, input, button {
   width: 36px;
   height: 39px;
   border: 0;
+  background-color: #ffffff;
   padding: 2px 0px 0px;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
-
 }
 
 .principal-box button img {
@@ -67,7 +67,6 @@ body, input, button {
   width: 134px;
   height: 34px;
   margin-right: 50px;
-
 }
 
 .download-app {
@@ -121,11 +120,53 @@ body, input, button {
 .locals ul li {
   display: inline;
   font-size: 14px;
+  margin: 5px;
   color: #333333;
+
 }
 
 .locals li {
   margin-right: 20px;
+}
+
+.locals ul li button {
+  background-color: rgba(0,0,0,0);
+  font-size: 14px;
+  border: none;
+  color: #333333;
+}
+
+.locals ul li button img {
+  width: 9.49px;
+  height: 9.49px;
+}
+
+.drop-content {
+  display: none;
+  position: absolute;
+  top: 100px;
+  width: 170px;
+}
+
+.drop-content ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.show {
+  display: flex;
+}
+
+.locals ul li button {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  color: #333333;
+}
+
+.locals ul li button img {
+  width: 9.49px;
+  height: 9.49px;
+  transform: rotate(270deg)
 }
 
 .login {
