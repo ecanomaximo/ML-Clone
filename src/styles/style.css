@@ -129,14 +129,14 @@ body, input, button {
   margin-right: 20px;
 }
 
-.locals ul li button {
+.locals ul li button2 {
   background-color: rgba(0,0,0,0);
   font-size: 14px;
   border: none;
   color: #333333;
 }
 
-.locals ul li button img {
+.locals ul li button2 img {
   width: 9.49px;
   height: 9.49px;
 }
